@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Blue"
+    tools:context="com.example.shiv.cal.Noterr.Noteshome">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/noteslist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="7dip"
+            android:divider="@color/Blue"
+            android:background="@color/Blue"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create,attach and enjoy!"
+        android:textSize="20dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/Nonotes"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/notes_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="36dp"
+        android:layout_marginEnd="38dp"
+        android:clickable="true"
+        android:paddingBottom="40dp"
+        android:src="@android:drawable/ic_input_add"
+        app:backgroundTint="@color/colorPrimary" />
+
+</RelativeLayout>
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+        android:enabled="true"
+        android:id="@+id/save"
+        android:icon="@drawable/save"
+        android:orderInCategory="0"
+        app:showAsAction="always"
+        android:title="save" />
+
+    <item
+        android:enabled="true"
+        android:id="@+id/attach"
+        android:icon="@drawable/attach"
+        android:orderInCategory="0"
+        app:showAsAction="always"
+        android:title="attach" >
+        <menu>
+            <item
+                android:enabled="true"
+                android:id="@+id/camera"
+                app:showAsAction="always"
+                android:title="Camera" />
+            <item
+                android:enabled="true"
+                android:id="@+id/picture"
+                app:showAsAction="always"
+                android:title="Image" />
+            <item
+                android:enabled="true"
+                android:id="@+id/audio"
+                app:showAsAction="always"
+                android:title="Audio" />
+
+        </menu>>
+    </item>>
+    <item
+        android:enabled="true"
+        android:id="@+id/delete"
+        android:orderInCategory="0"
+        app:showAsAction="never"
+        android:title="Delete" />
+
+    <item
+        android:enabled="true"
+        android:id="@+id/share"
+        android:orderInCategory="0"
+        app:showAsAction="never"
+        android:title="Share" />
+    <item
+        android:enabled="true"
+        android:id="@+id/prev_attachments"
+        android:orderInCategory="0"
+        app:showAsAction="never"
+        android:title="Attachments" />
+
+
+
+</menu>

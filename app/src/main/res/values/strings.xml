@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Noterr</string>
+    <string name="title_activity_day__view">Day</string>
+    <string name="title_activity_day_view">Day</string>
+    <string name="title_activity_week__view">Week</string>
+    <string name="title_activity_week_view">Week</string>
+    <string name="title_activity_month__view">Month</string>
+    <string name="title_activity_month_view">Month</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="no_attachments">No attachments</string>
+
+    <string name="notes_bg_select_color">Select Color</string>
+
+
+    <string-array name="color_list">
+        <item>Yellow</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Creamy</item>
+        <item>Celestial silver</item>
+    </string-array>
+    <string name="search">Search</string>
+
+
+</resources>

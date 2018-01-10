@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shiv.cal.Noterr.Help">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="Help"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="22dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Noterr - get Organised\n
+Go to Calendar or Notes or ToDo right from the Home Screen by clicking on the Menu at the top Left.\n
+Calendar:\n
+1.Create events through the floater button\n
+2.View the notes,ToDos created on a particular day or week or month by clicking on the date from the calendar.\n
+3.Navigate to the particular Note or a ToDo from the calendar.\n
+4.Get reminders for the events created.\n
+\n
+Notes:\n
+1.Create notes by clicking the floater button in the Notes home screen.\n
+2.You can choose colours for the background for your notes\n
+3.You can attach Images through camera or from gallery to the notes.\n
+4.You can attach audio notes aswell and view all the attachments by clicking on the attachments option from the action bar.\n
+5.You can share the notes as a text file to your friends through WhatsApp, E-mail or any other medium.\n
+To-Do:\n
+1.Create Todo’s by clicking on the floater button in the ToDo home page.\n
+2.You can set the priority for the Items.\n
+3.You can mark the items when they are completed."/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

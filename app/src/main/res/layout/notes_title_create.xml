@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/create_hdr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Notes!"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="25sp" />
+
+   <EditText
+        android:id="@+id/notes_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="60dp"
+        android:inputType="text"
+       android:hint="Title..."/>
+
+
+       <EditText
+           android:id="@+id/notes_tag"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="120dp"
+           android:ems="10"
+           android:inputType="text"
+           android:hint="Tag..." />
+
+    <TextView
+        android:id="@+id/notes_bg_color_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/notes_tag"
+        android:layout_marginTop="18dp"
+        android:text="@string/notes_bg_select_color"
+        android:layout_alignParentLeft="true"/>
+    <Spinner
+        android:id="@+id/color_bg_spinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="182dp"
+        android:layout_toRightOf="@+id/notes_bg_color_select"></Spinner>
+
+
+</RelativeLayout>
